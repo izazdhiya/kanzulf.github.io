@@ -1,0 +1,123 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	border: none;
+}
+.background{
+	background-color: rgba(0,40,87,1);
+    padding: 30px;
+    text-align: center;
+    font-family: roboto;
+}
+.box{
+	width: 1400px;
+	height: 900px;
+	position: relative;
+	margin: 6% auto;
+	background-image: linear-gradient(rgba(0,40,87,0.60),rgba(0,40,87,0.60)), url(background.jpeg);
+	background-repeat: no-repeat;
+	background-size: 1400px 900px;
+	border-radius: 20px;
+}
+.box1{
+	width: 700px;
+	height: 900px;
+	float: left;
+	color: white;
+	padding: 30px;
+	border-radius: 20px;
+}
+.box2{
+	width: 700px;
+	height: 900px;
+	background-color: white;
+	float: left;
+	border-radius: 0px 20px 20px 0px;
+}
+.box h1 {
+	padding:20px;
+}
+.button-box{
+	margin: 0;
+}
+.toggle-btn{
+	padding: 25px;
+	margin-left: 100px;
+	margin-right: 100px;
+	background: transparent;
+	cursor: pointer;
+	font-size: 20px;
+}
+.login{
+	width: 700px;
+	padding: 25px;
+	margin-top: 0;
+	border: 1px solid;
+	border-top-color: rgb(112,112,112);
+	border-bottom: 0;
+	border-left: 0;
+	border-right: 0;
+}
+.login h2{
+	margin: 0 0 20px;
+	width: 100%;
+	margin-bottom: 25px;
+	text-align: center;
+}
+.login h3{
+	text-align: left;
+	margin-bottom: 5px;
+	margin-left: 25%;
+}
+.login .input-data{
+	position: relative;
+	width: 50%;
+	margin-bottom: 25px;
+	margin-left: 25%;
+}
+.login .input-data input{
+	height: 50px;
+	width: 100%;
+	padding: 0 20px;
+	box-sizing: border-box;
+	font-size: 14px;
+	border: 2px solid black;
+	border-radius: 10px;
+}
+.login .input-data span{
+	position: absolute;
+	top: 12px;
+	left: 20px;
+	padding: 0px;
+	text-transform: capitalize;
+	color: rgb(112,112,112);
+}
+.login .input-data input:focus ~ span,
+.login .input-data input:valid ~ span{
+	opacity: 0;
+}
+.login .input-data input[type="submit"]{
+	background-color: rgb(77,207,203);
+	border: none;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 15px;
+	cursor: pointer;
+	color: rgb(255,255,255);
+}
+.checkbox{
+	padding-bottom: 25px;
+}
+.other{
+	margin: -25px;
+}
+.other h3{
+	margin-bottom: 25px;
+}
+.other-btn{
+	background: transparent;
+	cursor: pointer;
+	margin-left: 20px;
+	margin-right: 20px;
+}
